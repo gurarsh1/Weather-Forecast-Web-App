@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>weather</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+            integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/brands.min.css"
+            integrity="sha512-mXqwRsOznG7CS37KA7CLR1Fc72gfOgp7r8xaVdBKoBKhitcKI/mK+IamtZUf+FAkufXOvVTESu9lPsoQc+kFxg=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+
+    <body>
+
+
+        <body class="body">
+            <div class="container">
+                <h1>Weather Forecast</h1>
+
+
+
+                <div class="search-box">
+                    <input type="text" id="city_name" placeholder="Search for a city...">
+                    <button onclick="weather_report()"><i class=" fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </div>
+
+
+                <div class="weather-cards , today">
+                    <div class="weather-card">
+                        <div class="card-title">Today's Weather</div>
+                        <div class="location">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <h2>New York, USA</h2>
+                        </div>
+                        <div class="weather-icon">
+                            <i class="fas fa-sun"></i>
+                        </div>
+                        <div class="temperature">
+                            <span class="maxtemp">19&deg;c</span> /
+                            <span class="mintemp">19&deg;c</span>
+                        </div>
+                        <div class="description">Sunny</div>
+                        <div class="details">
+                            <div class="detail">
+                                <i class="fas fa-wind"></i>
+                                <span class="detail-value">12 km/h</span>
+                                <span class="detail-label">Wind</span>
+                            </div>
+
+                            <div class="detail">
+                                <i class="fas fa-tint"></i>
+                                <span class="detail-value">65%</span>
+                                <span class="detail-label">Humidity</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="weather-card , tomorrow">
+                        <div class="card-title">Tomorrow's Forecast</div>
+                        <div class="location">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <h2>London, UK</h2>
+                        </div>
+                        <div class="weather-icon">
+                            <i class="fas fa-cloud-sun"></i>
+                        </div>
+                        <div class="temperature">
+                            <span class="maxtemp">19&deg;c</span> /
+                            <span class="mintemp">19&deg;c</span>
+                        </div>
+                        <div class="description">Partly Cloudy</div>
+                        <div class="details">
+                            <div class="detail">
+                                <i class="fas fa-wind"></i>
+                                <span class="detail-value">10 km/h</span>
+                                <span class="detail-label">Wind</span>
+                            </div>
+                            <div class="detail">
+                                <i class="fas fa-tint"></i>
+                                <span class="detail-value">58%</span>
+                                <span class="detail-label">Humidity</span>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="weekend.html">
+                        <div class="weather-card weekend">
+                            <div class="card-title">Next Three Days</div>
+                            <div class="location">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <h2>Tokyo, Japan</h2>
+                            </div>
+                            <div class="weather-icon">
+                                <i class="fas fa-cloud"></i>
+                            </div>
+
+                            <div class="temperature">
+                                <span class="maxtemp">19&deg;c</span> /
+                                <span class="mintemp">19&deg;c</span>
+                            </div>
+
+                            <div class="description">Cloudy</div>
+                            <div class="details">
+                                <div class="detail">
+                                    <i class="fas fa-wind"></i>
+                                    <span class="detail-value">8 km/h</span>
+                                    <span class="detail-label">Wind</span>
+                                </div>
+                                <div class="detail">
+                                    <i class="fas fa-tint"></i>
+                                    <span class="detail-value">62%</span>
+                                    <span class="detail-label">Humidity</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="darkmode">
+
+                    </div>
+
+                </div>
+                <div class="modebtn">
+                    <label class="mode-switch">
+                        <input type="checkbox" id="togglemode">
+                        <span class="slider">
+                            <span class="lightmode">on</span>
+                            <span class="darkmode">off</span>
+                        </span>
+                    </label>
+                </div>
+                <script src="script.js">
+                    console.log("js file connected");
+                </script>
+
+        </body>
+
+</html>
