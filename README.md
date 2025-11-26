@@ -1,4 +1,4 @@
-```🌦 Weather Forecast Web App
+```🌦 **Weather Forecast Web App**
 
 A modern and responsive weather forecast website built using HTML, CSS, and JavaScript, powered by WeatherAPI.com.
 It displays today’s weather, tomorrow’s forecast, and a detailed 3-day extended forecast with automatic updates and theme switching.
