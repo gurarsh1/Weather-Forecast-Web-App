@@ -6,7 +6,6 @@ It displays today’s weather, tomorrow’s forecast, and a detailed 3-day exten
 🚀** FEATURES**
 
 🔍 **City Search**
-
 Search weather for any city in the world
 Auto-loads last searched city using localStorage
 Real-time data from WeatherAPI
