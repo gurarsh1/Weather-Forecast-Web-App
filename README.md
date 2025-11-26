@@ -58,5 +58,5 @@ FontAwesome Icons
 
 Gurarshdeep Kaur
 
--BCA Graduate
--Email:arsh1deep83@gmail.com
+BCA Graduate
+Email: arsh1deep83@gmail.com
